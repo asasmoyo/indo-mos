@@ -1,4 +1,4 @@
-Info MOS (Indonesia Macet of Shame) - BETA
+Indo MOS (Indonesia Macet of Shame) - BETA
 ==========================================
 
 Aplikasi simpel yang mengcapture kemacetan lalu lintas dengan menggunakan Google Map.
