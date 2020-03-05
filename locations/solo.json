@@ -11,5 +11,26 @@
     "Perempatan fajar indah": {
         "lat": "-7.550136",
         "lon": "110.7877838"
+    },
+    "Perempatan faroka": {
+        "lat": "-7.559067",
+        "lon": "110.785743"
+    },
+    "Perempatan polres": {
+        "lat": "-7.555538",
+        "lon": "110.802884"
+    },
+    "Perempatan Jl A Yani": {
+        "lat": "-7.552576",
+        "lon": "110.801146"
+    },
+    "Perempatan Bu Sri": {
+        "lat": "-7.555789",
+        "lon": "110.811264"
+    },
+    "Bangjo Terminal": {
+        "lat": "-7.552088",
+        "lon": "110.821338",
+        "zoom": 17
     }
 }

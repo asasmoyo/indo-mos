@@ -29,7 +29,7 @@ const capture = (lat, lon, zoom, output) => {
 }
 
 const normalizeName = name => {
-    return name.toLowerCase().replace(' ', '_').replace(/[^a-z-_]/, '')
+    return name.toLowerCase().replace(/\s/g, '_').replace(/[^a-z-_]/g, '')
 }
 
 const parseCityName = fileName => {
