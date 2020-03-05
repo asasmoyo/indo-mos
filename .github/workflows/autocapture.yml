@@ -1,0 +1,16 @@
+name: Auto capture data
+on: [push]
+  # schedule:
+  #   - cron: '*/5 * * * *'
+jobs:
+  build:
+    name: Greeting
+    runs-on: ubuntu-lts
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        uses: comchangs/action-yarn@v0.1-beta
+        run: yarn install
+      - name: Run script
+        uses: thonatos/github-actions-nodejs@v0.1.1
+        run: node index.js
