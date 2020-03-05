@@ -52,7 +52,7 @@ getLocations()
                 const lat = jsonContent[key].lat
                 const lon = jsonContent[key].lon
                 const zoom = (jsonContent[key].zoom) ? jsonContent[key].zoom : 18
-                const output = `data/${city}/${normalizeName(key)}_${moment().format('YYYY-MM-DD_hh:mm')}.png`
+                const output = `data/${city}/${normalizeName(key)}_${moment().format('YYYY-MM-DD_HH:mm')}.png`
                 promises.push(capture(lat, lon, zoom, output))
             })
         })
